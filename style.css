@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#141e30, #243b55);
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+p,
+li {
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4b4b4b;
+  padding: 15px;
+}
+
+header img {
+  height: 100px;
+  width: auto;
+  margin-right: 10px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  white-space: nowrap;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav li {
+  width: 80px;
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:hover {
+  color: #4b4b4b;
+}
+
+nav li .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.home,
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 18px;
+}
+
+.home .text {
+  flex: 1;
+  padding: 120px 50px;
+}
+
+.home .text h1 {
+  font-size: 3em;
+  margin-bottom: 3px;
+}
+
+.home .text p {
+  font-size: 1.3em;
+  margin: 30px 0;
+}
+
+.home .text a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.home .text a:hover {
+  background-color: #2980b9;
+}
+
+.home .gbr,
+.about .logoilc,
+.activity .poster {
+  flex: 1;
+  padding: 15px;
+}
+
+.home .gbr img {
+  height: 500px;
+  width: auto;
+}
+
+.about .descabout {
+  flex: 1;
+  margin: 50px 20px 0 -150px;
+}
+
+.about .descabout p {
+  padding: 10px 0;
+  font-size: 1.2em;
+}
+
+.about .descabout h1 {
+  font-size: 2em;
+}
+
+.about .logoilc img {
+  height: 500px;
+  width: auto;
+  margin-top: 30px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.activity .kegiatan {
+  flex: 2;
+  margin: 28px;
+  padding: 20px;
+  border: 1px solid #4b4b4b;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.activity .poster img {
+  height: 500px;
+  width: auto;
+  margin-top: 10px;
+}
+
+.activity .poster p {
+  margin: 20px;
+}
+
+.contact {
+  padding: 80px 80px 15px;
+}
+
+.contact p {
+  padding: 10px 0;
+}
+
+footer {
+  background-color: #4b4b4b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
